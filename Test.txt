@@ -1,2 +1,0 @@
-# AzureFunctionApp-Java
-This repo contains the JAR file for Azure Function App
