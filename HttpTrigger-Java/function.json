@@ -1,0 +1,14 @@
+{
+  "scriptFile" : "..\\partha_azure-functionapp-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.partha_azure.functionapp.Function.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET", "POST" ]
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
